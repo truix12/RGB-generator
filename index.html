@@ -6,32 +6,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RBG-generator</title>
+  <link author="Raj Dev" rel="icon" type="image/x-icon" href="/images/circle_color.svg">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="wrapper">
-    <div class="range">
+
+    <h1 class="web-title">RBG-generator</h1>
+
+    <div class="range div-red">
       <span class="range-value">0</span>
       <input type="range" class="red" name="size" min="0" max="255" value="0">
       <span class="range-value">255</span>
+      <p class="range-text">Red: <span>0</span></p>
     </div>
 
-    <div class="range">
+    <div class="range div-green">
       <span class="range-value">0</span>
       <input type="range" class="green" name="size" min="0" max="255" value="0">
       <span class="range-value">255</span>
+      <p class="range-text">Green: <span>0</span></p>
     </div>
 
-    <div class="range">
+    <div class="range div-blue">
       <span class="range-value">0</span>
       <input type="range" class="blue" name="size" min="0" max="255" value="0">
       <span class="range-value">255</span>
+      <p class="range-text">Blue: <span>0</span></p>
     </div>
 
     <div class="color"></div>
 
-    <p>rgb(<span class="red-value">0</span>, <span class="green-value">0</span>, <span class="blue-value">0</span>)</p>
+    <div class="div-rgb">
+      <p class="text-rgb">rgb(
+        <span class="red-value">0</span>,
+        <span class="green-value">0</span>,
+        <span class="blue-value">0</span>)
+      </p>
+    </div>
   </div>
   <script src="main.js"></script>
 </body>
