@@ -1,3 +1,3 @@
 # RGB-generator
 
-## link -->
+## link --> https://truix12.github.io/RGB-generator/
